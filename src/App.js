@@ -10,6 +10,7 @@ import {
 import Home from './screen/Home';
 import Detail from "./screen/Detail";
 import Updater from "./screen/Updater"
+import ListNews from './screen/ListNews';
 function App() {
   return (
     <Router>
@@ -17,6 +18,7 @@ function App() {
         <Route index element={<Home />} />
         <Route path="/detail" element={<Detail />} />
         <Route path="/form" element={<Updater />} />
+        <Route path="/list" element={<ListNews />} />
     </Routes>
   </Router>
   );
